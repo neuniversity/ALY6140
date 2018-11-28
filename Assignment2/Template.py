@@ -39,6 +39,9 @@ password_mgr = urllib.request.HTTPPasswordMgrWithDefaultRealm()
 
 # Add the username and password.
 # If we knew the realm, we could use it instead of None.
+
+
+
 top_level_url = "https://northeastern.blackboard.com/webapps/login/"
 password_mgr.add_password(None, top_level_url, 'jiang.can', 'Jiangcanlin123')
 
